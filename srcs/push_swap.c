@@ -6,7 +6,7 @@
 /*   By: zadriouc <zadriouc@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/12 09:42:38 by ael-khni          #+#    #+#             */
-/*   Updated: 2024/05/27 13:25:15 by zadriouc         ###   ########.fr       */
+/*   Updated: 2024/05/27 16:58:06 by zadriouc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 #include <time.h>
 
 #define MIN 0
-#define MAX 499
+#define MAX 99
 #define RANGE (MAX - MIN + 1)
 
 void shuffle(int *array, int n)
@@ -81,12 +81,12 @@ int main(void)
 	// push_elem(a, new_elem(5));
 	
 
-	// ft_print_stack(*a, 'A');
-	// ft_print_stack(*b, 'B');
+	//ft_print_stack(*a, 'A');
+	//ft_print_stack(*b, 'B');
 	if(!is_sorted(*a))
 		turk_sort(a, b);
-	// ft_print_stack(*a, 'A');
-	// ft_print_stack(*b, 'B');
+	//ft_print_stack(*a, 'A');
+	//ft_print_stack(*b, 'B');
 	
 	// if (is_sorted(*a))
 	// 	printf("\n--| stack is SUCCESSFULLY SORTED !! |--\n");
