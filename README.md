@@ -1,1 +1,1 @@
-algorithem choosen : Turkish Sort
+algorithem choosen : Turk Sort
