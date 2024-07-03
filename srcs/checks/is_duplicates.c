@@ -6,13 +6,11 @@
 /*   By: zadriouc <zadriouc@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/27 16:32:34 by zadriouc          #+#    #+#             */
-/*   Updated: 2024/05/27 16:32:36 by zadriouc         ###   ########.fr       */
+/*   Updated: 2024/05/31 16:05:19 by zadriouc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
-
-/* a function to check if there's duplicates */
 
 int	is_duplicates(char **av, int size)
 {

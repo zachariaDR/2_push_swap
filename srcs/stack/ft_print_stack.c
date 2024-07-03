@@ -6,24 +6,27 @@
 /*   By: zadriouc <zadriouc@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/27 00:57:20 by zadriouc          #+#    #+#             */
-/*   Updated: 2024/05/27 13:16:37 by zadriouc         ###   ########.fr       */
+/*   Updated: 2024/06/12 19:41:38 by zadriouc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "ft_printf.h"
 #include "push_swap.h"
 
-void ft_print_stack(t_stack a, char c)
+void	ft_print_stack(t_stack a, char c)
 {
-	t_node *x;
+	t_node	*x;
 
 	x = a.top;
-	printf("\n----- %c ----\n", c);
-	printf("index | data\n");
-	printf("------------\n");
+	ft_printf("\n----- %c ----\n", c);
+	ft_printf("index | data\n");
+	ft_printf("------------\n");
+	if (is_empty(&a))
+		printf("STACK EMPTY\n");
 	while (x)
 	{
-		printf("  %d   |   %d\n", get_elem_index(a, x->data),x->data);
+		ft_printf("  %d   |   %d\n", get_elem_index(a, x->data), x->data);
 		x = x->bellow;
 	}
-	printf("------------\n");
+	ft_printf("------------\n");
 }
